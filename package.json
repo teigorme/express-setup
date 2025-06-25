@@ -4,6 +4,8 @@
   "description": "Simples setup for expressjs app",
   "main": "index.js",
   "scripts": {
+    "start": "node dist/server.js",
+    "build": "tsc",
     "dev": "tsx watch src/server.ts"
   },
   "repository": {
