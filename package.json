@@ -20,16 +20,20 @@
   },
   "homepage": "https://github.com/teigorme/express-setup#readme",
   "dependencies": {
+    "@prisma/client": "^6.10.1",
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.1",
     "@types/helmet": "^0.0.48",
+    "@types/jsonwebtoken": "^9.0.10",
     "@types/morgan": "^1.9.9",
+    "prisma": "^6.10.1",
     "tsx": "^4.19.4",
     "typescript": "^5.8.3"
   },
